@@ -11,14 +11,15 @@
       $email = htmlspecialchars($_POST['email']);
       $subject = htmlspecialchars($_POST['subject']);
       $message = htmlspecialchars($_POST['message']);
+     
 
     if(filter_var($email, FILTER_VALIDATE_EMAIL)){
     $body = [
     'Messages' => [
       [
         'From' => [
-          'Email' => "sow.hamadi@gmail.com",
-          'Name' => "Hamadi"
+          'Email' => $email,
+          'Name'  =>  $name
         ],
         'To' => [
           [
@@ -26,9 +27,10 @@
             'Name' => "Hamadi"
           ]
         ],
-        'Subject' => "Greetings from Mailjet.",
-        'TextPart' => "$email, $message",
-        'HTMLPart' => "<h3>Dear passenger 1, welcome to <a href='https://www.mailjet.com/'>Mailjet</a>!</h3><br />May the delivery force be with you!",
+        'Subject' => $subject,
+        'Email' => $email,
+        'TextPart' => $message,
+        'HTMLPart' => "<h3>".$message."<br />Vous avez un message de la part de ".$name." adresse email: ".$email." !",
         'CustomID' => "AppGettingStartedTest"
       ]
       ]
