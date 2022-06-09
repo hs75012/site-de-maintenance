@@ -16,10 +16,10 @@
                 <i class="fa fa-close" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="index.html">Notre technicité</a></li>
-                    <li><a href="about.html">Nos valeurs</a></li>
-                    <li><a href="course.html">Nos domaines</a></li>
-                    <li><a href="blog.html">Notre entreprise</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.php">Nos valeurs</a></li>
+                    <li><a href="course.php">Nos domaines</a></li>
+                    <li><a href="blog.php">Notre entreprise</a></li>
+                    <li><a href="contact.php">Contact</a></li>
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
@@ -70,17 +70,7 @@
             </div>
     </section>
     
-<section class="footer">
-        <h4>Mieux nous connaitre</h4>
-        <p>Retrouvez-nous sur nos différents réseaux sociaux. Nous publions souvent des projets autour de l'énergie et du traitement d'air. Ne ratez rien de nos actualités. L'enjeu climatique est l'affaire de tous et de toutes.</p>
-        <div class="icons">
-            <i class="fa fa-facebook"></i>
-            <i class="fa fa-twitter"></i>
-            <i class="fa fa-instagram"></i>
-            <i class="fa fa-linkedin"></i>
-        </div>
-        <p>Easy Airconditionning 2022 &#174;</p>
-</section>    
+<?php include 'includes/footer.php'; ?>
   
 <script>
     var navLinks = document.getElementById("navLinks");
