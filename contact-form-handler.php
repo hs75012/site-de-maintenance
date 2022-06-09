@@ -30,7 +30,7 @@
         'Subject' => $subject,
         'Email' => $email,
         'TextPart' => $message,
-        'HTMLPart' => "<h3>".$message."<br />Vous avez un message de la part de ".$name." adresse email: ".$email." !",
+        'HTMLPart' => "<h3>".$message."<br />Vous avez un message de la part de ".$name." adresse email: ".$email."\n!",
         'CustomID' => "AppGettingStartedTest"
       ]
       ]
