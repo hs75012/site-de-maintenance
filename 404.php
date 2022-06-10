@@ -1,4 +1,4 @@
-<?php include 'includes/header.php'; ?>
+<?php include 'header.php'; ?>
 
 		<div class="banner_w3lspvt-2">
 			<ol class="breadcrumb">

@@ -9,24 +9,9 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
 </head>
 <body>
-    <section class="sub-header">
-        <nav>
-            <a href="index.html"><img src="images/logo.png"></a>
-            <div class="nav-links" id="navLinks">  
-                <i class="fa fa-close" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="index.html">Notre technicité</a></li>
-                    <li><a href="about.php">Nos valeurs</a></li>
-                    <li><a href="course.php">Nos domaines</a></li>
-                    <li><a href="blog.php">Notre entreprise</a></li>
-                    <li><a href="contact.php">Contact</a></li>
-                </ul>
-            </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
-        </nav>
-            <h1>Contactez-nous</h1>
-    </section>
-    
+   
+<?php include 'includes/header.php'; ?>
+
     <section class="location">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2625.076630709886!2d2.3966722156401055!3d48.856749108776455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1654654437066!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></>" width="720" height="445" frameborder="0" style="border:0" allowfullscreen></iframe>
     </section>
