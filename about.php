@@ -11,6 +11,10 @@
 <body>
     
 <?php include 'includes/header.php'; ?>
+<?php include 'includes/data.php'; ?>
+<?php
+$title = $titleList[5];
+?>
  
 <section class="about-us">
     <div class="row">

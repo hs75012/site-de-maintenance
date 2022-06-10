@@ -6,7 +6,7 @@
              <ul>
                 <li><a href="index.html">Notre technicité</a></li>
                 <li><a href="about.php">Nos domaines</a></li>
-                <li><a href="course.php">Nos domaines</a></li>
+                <li><a href="course.php">Nos compétence</a></li>
                 <li><a href="blog.php">Notre entreprise</a></li>
                 <li><a href="contact.php">Contact</a></li>
             </ul>

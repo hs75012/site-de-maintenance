@@ -1,12 +1,3 @@
-<?php
-    $menu = array(
-        'Notre technicité' => 'index.html',
-        'About' => 'about.php',
-        'Course' => 'course.php',
-        'Blog'  => 'blog.php',
-        'Contact' => 'contact.php',
-    );
-?>
 <nav>
     <a href="index.html"><img src="images/logo.png"></a>
      <div class="nav-links" id="navLinks">  
