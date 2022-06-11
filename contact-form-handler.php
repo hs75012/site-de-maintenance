@@ -1,12 +1,11 @@
 <?php
     require_once(__DIR__ . '/vendor/autoload.php');
     use \Mailjet\Resources;
-    define('API_PUBLIC_KEY', '7983095634bfc78d3a7a94de61db9d7f');
-    define('API_PRIVATE_KEY', '68832a614e80fc00f7a2db44d5829033');
-    
+    include('security.php');
+
     $mj = new \Mailjet\Client(API_PUBLIC_KEY, API_PRIVATE_KEY,true,['version' => 'v3.1']);
     
-    if(!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['subject']) && !empty($_POST['message'])){
+    if(!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['subject']) && !empty($_POST['message']) && isset($mj)){
       $name = htmlspecialchars($_POST['name']);
       $email = htmlspecialchars($_POST['email']);
       $subject = htmlspecialchars($_POST['subject']);
@@ -44,7 +43,8 @@
   echo "Email non valide";
  }
 } else {
-   header('Location: contact.html');
+  if (empty($mj) || is_null($mj) || $mj == NULL) echo "L'api MailJet a un problème";
+   header('Location: contact.php');
    die();
 } 
 

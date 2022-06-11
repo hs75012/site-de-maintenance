@@ -12,9 +12,6 @@
     
 <?php include 'includes/header.php'; ?>
 <?php include 'includes/data.php'; ?>
-<?php
-$title = $titleList[5];
-?>
  
 <section class="about-us">
     <div class="row">
@@ -32,17 +29,5 @@ $title = $titleList[5];
     
 <?php include 'includes/footer.php'; ?>
 
-<script>
-    var navLinks = document.getElementById("navLinks");
-
-    function showMenu() {
-        navLinks.style.right = "0";
-    }
-
-    function hideMenu() {
-        navLinks.style.right = "-200px";
-    }
-</script> 
-    
 </body>
 </html>    

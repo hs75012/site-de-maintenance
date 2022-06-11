@@ -10,9 +10,9 @@
 </head>
 <body>
    
-<?php include 'includes/header.php'; ?>
-<?php include 'includes/data.php'; ?>
-<?php $title = $titleList[2]; ?>
+<?php 
+include 'includes/header.php';
+?>
 
     <section class="location">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2625.076630709886!2d2.3966722156401055!3d48.856749108776455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1654654437066!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></>" width="720" height="445" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -59,17 +59,6 @@
     
 <?php include 'includes/footer.php'; ?>
   
-<script>
-    var navLinks = document.getElementById("navLinks");
-
-    function showMenu() {
-        navLinks.style.right = "0";
-    }
-
-    function hideMenu() {
-        navLinks.style.right = "-200px";
-    }
-</script> 
     
 </body>
 </html>    
