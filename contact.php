@@ -40,7 +40,7 @@ include '_inc.php';
             </div>
         <?php endif; ?>
         <?php if(array_key_exists('success', $_SESSION)): ?>
-            <div class="alert alert-success">
+            <div class="alert alert-primary" style="background-color: #d4edda!important;padding: 10px; color: #216136">
                 Votre message a bien été envoyé
             </div>
         <?php  

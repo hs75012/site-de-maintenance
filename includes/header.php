@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="style.css">
 <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
 <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
  
 </head>
 <body>
@@ -20,8 +20,7 @@ if (strpos($host, '/index.php') !== false){
 <?php } else {?>
 <section class="sub-header">
   <?php } ?>
-  
-  <nav>
+   <nav>
     <a href="index.php"><img src="images/logo.png"></a>
     <div class="nav-links" id="navLinks">
       <i class="fa fa-close" onclick="hideMenu()"></i>
