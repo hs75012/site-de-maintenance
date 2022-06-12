@@ -1,17 +1,6 @@
-<html>
-<html lang="fr">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Easy Air Conditionning</title>
-<link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
-</head>
-<body>
-   
 <?php 
 include 'includes/header.php';
+include '_inc.php';
 ?>
 
     <section class="location">
@@ -45,6 +34,20 @@ include 'includes/header.php';
                     
                 </div>
                 <div class="contact-col">
+                <?php if(array_key_exists('errors', $_SESSION)): ?>
+            <div class="alert alert-danger">
+                <?= implode('<br>', $_SESSION['errors']); ?>
+            </div>
+        <?php endif; ?>
+        <?php if(array_key_exists('success', $_SESSION)): ?>
+            <div class="alert alert-success">
+                Votre message a bien été envoyé
+            </div>
+        <?php  
+            if($_SESSION['success'] == 1) unset($_SESSION['success']); 
+            endif;
+            ?>
+
                     <form action="contact-form-handler.php" method="post">
                     <input type="text" name="name" placeholder="Entrez votre nom" required>
                     <input type="email" name="email" placeholder=" Entrez votre adresse email" required>
@@ -59,6 +62,3 @@ include 'includes/header.php';
     
 <?php include 'includes/footer.php'; ?>
   
-    
-</body>
-</html>    

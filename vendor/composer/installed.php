@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '9c977549b5319979d3d9cd5fb772257b8563418e',
+        'reference' => '021c2612a6d799a47ed415966088acf738668119',
         'name' => '__root__',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '9c977549b5319979d3d9cd5fb772257b8563418e',
+            'reference' => '021c2612a6d799a47ed415966088acf738668119',
             'dev_requirement' => false,
         ),
         'cordoval/hamcrest-php' => array(

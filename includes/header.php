@@ -1,3 +1,16 @@
+<html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Easy Air Conditionning</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+ 
+</head>
+<body>
 <?php
 include 'includes/data.php';
 $host = $_SERVER['SERVER_NAME']  . $_SERVER['REQUEST_URI'];
@@ -5,8 +18,9 @@ if (strpos($host, '/index.php') !== false){
 ?>
 <section class="header">
 <?php } else {?>
-  <section class="sub-header">
+<section class="sub-header">
   <?php } ?>
+  
   <nav>
     <a href="index.php"><img src="images/logo.png"></a>
     <div class="nav-links" id="navLinks">

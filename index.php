@@ -1,17 +1,4 @@
-<html>
-<html lang="fr">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Easy Air Conditionning</title>
-<link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
-</head>
-<body>
-
-        
-<?php include('includes/header.php') ?>
+        <?php include('includes/header.php') ?>
         
         <div class="text-box">
             <h1>Easy air conditionning</h1>
@@ -124,34 +111,7 @@
     
 </section>    
  
-<section class="footer">
-        <h4>Retrouvez-nous sur nos réseaux</h4>
-        <p>Nos équipes sont mobilisées afin de vous offrir les meilleurs services. La satisfaction de notre clientèle est la pierre angulaire de notre projet. 
-        Nos agences fournissent un service de qualité à travers les équipes techniques et administratives des différents sites.</p>
-        <div class="icons">
-            <a href="https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1"><i class="fa fa-facebook"></i></a>
-            <a href="https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1"><i class="fa fa-twitter"></i></a>
-            <a href="https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1"><i class="fa fa-instagram"></i></a>
-            <a href="https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1"><i class="fa fa-linkedin"></i></a>
-            
-        </div>
-        <a href="https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1" class="footer-link"><p>Easy Airconditionning 2022 &#174;</p></a>
-</section>    
-  
-<script>
-    var navLinks = document.getElementById("navLinks");
-
-    function showMenu() {
-        navLinks.style.right = "0";
-    }
-
-    function hideMenu() {
-        navLinks.style.right = "-200px";
-    }
-</script> 
-    
-</body>
-</html>
+<?php include 'includes/footer.php'; ?>
 
 
 

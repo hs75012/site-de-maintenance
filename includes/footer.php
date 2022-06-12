@@ -19,6 +19,10 @@
     function hideMenu() {
         navLinks.style.right = "-200px";
     }
+ function showMessageSuccess() {
+    let message = document.getElementById('#success_message')
+    console.log(message)
+ }
 </script>  
 </body>
 </html>

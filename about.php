@@ -1,15 +1,4 @@
-<html>
-<html lang="fr">   
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Easy air conditionning</title>
-<link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
-</head>
-<body>
-    
+
 <?php include 'includes/header.php'; ?>
 <?php include 'includes/data.php'; ?>
  
@@ -28,6 +17,3 @@
 </section>
     
 <?php include 'includes/footer.php'; ?>
-
-</body>
-</html>    
