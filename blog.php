@@ -1,39 +1,38 @@
 <?php include 'includes/header.php'; ?>
 
-    <section class="blog-content">
+<section class="blog-content">
     <div class="row">
-    <div class="blog-left">
-        <img src="images/certificate.jpg">
-        <h2>Nos certifications</h2>
-        
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus. Donec sit amet nisl non justo malesuada fermentum. Donec eget felis dolor. Suspendisse condimentum vestibulum ex ac cursus.</p>
-        <br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus. Donec sit amet nisl non justo malesuada fermentum. Donec eget felis dolor. Suspendisse condimentum vestibulum ex ac cursus. Nam pharetra viverra efficitur. Sed pellentesque luctus arcu, quis finibus nibh luctus mattis. Vivamus diam turpis, pellentesque vel magna sit amet, sollicitudin efficitur tortor. Etiam ornare lacinia iaculis. Cras nec dui eu nibh pharetra condimentum. Vestibulum ultrices sapien vitae arcu varius volutpat. Integer rhoncus a massa ut aliquam. Sed aliquet, nibh non dictum ullamcorper, orci arcu posuere tortor, vitae ultrices nulla tortor nec sapien. Vestibulum ac nibh at leo maximus molestie.</p>
-        <br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus. Donec sit amet nisl non justo malesuada fermentum. Donec eget felis dolor. Suspendisse condimentum vestibulum ex ac cursus. Nam pharetra viverra efficitur. Sed pellentesque luctus arcu, quis finibus nibh luctus mattis. Vivamus diam turpis, pellentesque vel magna sit amet, sollicitudin efficitur tortor. Etiam ornare lacinia iaculis. Cras nec dui eu nibh pharetra condimentum.</p>
-        <br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus. Donec sit amet nisl non justo malesuada fermentum. Donec eget felis dolor. Suspendisse condimentum vestibulum ex ac cursus. Nam pharetra viverra efficitur. Sed pellentesque luctus arcu.</p>
-        
-        <div class="comment-box">
-            <h3>Leave a comment</h3>
-            <form class="comment-form">
-                    <input type="text" placeholder="Enter Name">
-                    <input type="email" placeholder="Enter email">
-                    <textarea rows="5" placeholder="Your Comment"></textarea>
-                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
-            </form>
+        <div class="blog-left">
+            <img src="images/certificate.jpg">
+            <h2>Nos certifications</h2>
+
+            <p>Fort de son succès de 5 ans dans le monde audiovisuel. SMTP créé une nouvelle filiale dans le domaine du traitement d'air. Son but est d'apporter son expertise et pénétrer un nouveau marché. Alliant profesionnalisme, notre société tient à coeur de vous aider dans la réalisation de vos projets.</p>
+            <br>
+            <p>Notre entreprise s'engage également à vos côtés dans une démarche écologique et responsable grâce aux nombreuses certifications obtenues. Nous sommes un allié de taille dans la transition écologique.</p>
+            <br>
+            <p>Grâce à nos équipes pluridisciplinaire nous réponderons rapdiement à vos questions et vos interrogations. L'implication est la clé de notre succès.</p>
+            <br>
+            <p>De nombreux nous ont confiés des tâches périlleuse, néanmoins nous ne reculons devant aucun défi.</p>
+
+            <div class="comment-box">
+                <h3>Laisser un commentaire</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Nom">
+                    <input type="email" placeholder="Emaill">
+                    <textarea rows="5" placeholder="Votre commentaire"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POSTER</button>
+                </form>
+            </div>
         </div>
-    </div>
-        
-    <div class="blog-right">
-        
-        
+
+        <div class="blog-right">
+
             <h3>Habilitations</h3>
             <div>
                 <span>Attestation de capacité catégorie 1</span>
             </div>
             <div>
-                <span>Attestation d'aptitude de nos techniciens</span>    
+                <span>Attestation d'aptitude de nos techniciens</span>
             </div>
             <div>
                 <span>Habiligaz</span>
@@ -50,11 +49,10 @@
             <div>
                 <span>Habilitation contrôle des disconnecteurs</span>
             </div>
-           
-        </div> 
-    
+
+        </div>
+
     </div>
-    </section>
-    
+</section>
+
 <?php include 'includes/footer.php'; ?>
-    

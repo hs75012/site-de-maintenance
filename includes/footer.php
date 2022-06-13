@@ -8,7 +8,10 @@
             <i class="fa fa-linkedin"></i>
         </div>
         <p>Easy Airconditionning 2022 &#174;</p>
-</section>  
+</section> 
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+    async defer>
+</script>
 <script>
     var navLinks = document.getElementById("navLinks");
 
@@ -19,6 +22,11 @@
     function hideMenu() {
         navLinks.style.right = "-200px";
     }
+
+    var onloadCallback = function() {
+    
+  };
+  
 </script>  
 </body>
 </html>

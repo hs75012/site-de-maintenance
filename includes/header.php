@@ -6,7 +6,7 @@
 <title>Easy Air Conditionning</title>
 <link rel="stylesheet" href="style.css">
 <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
-<!-- CSS only -->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
  
 </head>
