@@ -79,13 +79,12 @@ if (isset($_POST["submit"])) {
                 <input type="email" name="email" placeholder=" Entrez votre adresse email" required>
                 <input type="text" name="subject" placeholder="Entrez le sujet" required>
                 <textarea rows="8" name="message" placeholder="Message" required></textarea>
-                
+
                 <div class="g-recaptcha" data-sitekey="<?php echo $siteKey; ?>"></div>
-                
+
                 <button type="submit" class="hero-btn red-btn">Envoyez le message</button>
-                <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
-                 async defer>
-                 </script>
+                <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer>
+                </script>
             </form>
 
         </div>
