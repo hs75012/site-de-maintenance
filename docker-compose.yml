@@ -1,9 +1,15 @@
-version: "2"
+# volume pour persister les données SQL entre 2 start/stop du container docker relatif à la bdd
+volumes:
+  db-data:
+
 services:
+
   webserver:
-    image: sitephpimage
+    # on dit à Docker compose de créer un service à partir du Dockerfile qui est dans le dossier courant  
+    build:
+      context: .
     ports:
-      - "80:80"
+      - "81:80"
       - "443:443"
     volumes:
       - ./app:/var/www/html
@@ -13,9 +19,18 @@ services:
       MYSQL_USER: test
       MYSQL_PASSWORD: test
       SITE_URL: http://localhost
-    networks:
-      - test
 
-networks:
-  test:
-    external: true
+  # création du service de db
+  db:
+    container_name: db
+    image: mysql:8.0
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: "true"
+      MYSQL_DATABASE: test
+      MYSQL_USER: test
+      MYSQL_PASSWORD: test
+    ports:
+      - '3306:3306'
+    volumes:
+      - db-data:/var/lib/mysql  

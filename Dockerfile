@@ -20,3 +20,7 @@ RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf &&\
     service apache2 restart
 EXPOSE 80
 EXPOSE 443
+
+# build l'image => docker build -t monapp:v0.0.0 -f ./Dockerfile .
+    # bien sûr, le numéro de version peut être incrémenté en suivant les règles du semver (https://semver.org/)
+# run l'image => docker run -p 81:80 -d monapp:v0.0.0
